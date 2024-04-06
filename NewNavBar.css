@@ -1,0 +1,55 @@
+#FirstDiv {
+    border: beige;
+    border-style: outset;
+    width: auto;
+    height: 9%;
+    box-shadow: 5px 5px 5px 10px rgba(237, 230, 230, 0.866);
+    padding-top: 2% ;
+}
+
+#SecondDiv{
+    display: flex;
+} 
+
+#image1{
+    height: 36px;
+    width: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(205, 133, 38);
+}
+
+a:hover{
+   font-size: larger;
+   color: rgb(239, 229, 178);
+   box-shadow: 1.3px 1.3px 1.3px 3px rgb(240, 200, 112);
+}
+#Home{
+    padding-left: 15%;
+}
+
+#Categories{
+    padding-left: 2.5%;
+}
+
+#About{
+    padding-left: 2.5%;
+}
+
+#Contact{
+    padding-left: 2.5%;
+}
+
+#Login{
+    padding-left: 2.5%;
+}
+
+#User{
+    padding-left: 16%;
+}
+
+#Admin{
+    padding-left: 2.5%;
+}
