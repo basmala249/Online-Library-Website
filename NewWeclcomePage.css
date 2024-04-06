@@ -1,0 +1,31 @@
+h1{
+    color: rgba(87, 124, 181, 0.833);
+}
+
+#FirstPara span{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#FirstPara:hover span{
+    opacity: 1;
+    font-size: larger;
+    transition-delay: 0s;
+ }
+
+#Intro{
+    display: flex;
+    border-radius: 5px;
+    background: url('HomePage5.jpg');
+}
+
+#image2{
+    border-radius: 5px;
+    height: 350px;
+    width: 330px;
+    transition: trasform 0.3s ease-in-out;
+}
+
+#image2:hover{
+    transform: scale(1.1);
+}
