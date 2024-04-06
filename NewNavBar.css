@@ -5,6 +5,7 @@
     height: 9%;
     box-shadow: 5px 5px 5px 10px rgba(237, 230, 230, 0.866);
     padding-top: 2% ;
+    background: url('HomePage6.jpg');
 }
 
 #SecondDiv{
@@ -22,8 +23,9 @@ a{
 }
 
 a:hover{
-   font-size: x-larger;
+   font-size: x-large;
    color: rgb(239, 229, 178);
+   
 }
 #Home{
     padding-left: 15%;
@@ -50,5 +52,5 @@ a:hover{
 }
 
 #Admin{
-    padding-left: 2%;
+    padding-left: 1%;
 }
