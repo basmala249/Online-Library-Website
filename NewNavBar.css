@@ -22,9 +22,8 @@ a{
 }
 
 a:hover{
-   font-size: larger;
+   font-size: x-larger;
    color: rgb(239, 229, 178);
-   box-shadow: 1.3px 1.3px 1.3px 3px rgb(240, 200, 112);
 }
 #Home{
     padding-left: 15%;
@@ -51,5 +50,5 @@ a:hover{
 }
 
 #Admin{
-    padding-left: 2.5%;
+    padding-left: 2%;
 }
