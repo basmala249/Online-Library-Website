@@ -1,5 +1,5 @@
 h1{
-    color: rgba(87, 124, 181, 0.833);
+    color: rgb(87, 124, 181, 0.833);
 }
 
 #FirstPara span{
@@ -11,18 +11,20 @@ h1{
     opacity: 1;
     font-size: larger;
     transition-delay: 0s;
+    color: rgb(178, 91, 179) ;
  }
 
-#Intro{
+#Intro {
     display: flex;
     border-radius: 5px;
-    background: url('HomePage5.jpg');
+    background: url('BackGround1.jpg');
+    background-attachment: fixed;
 }
 
 #image2{
     border-radius: 5px;
     height: 350px;
-    width: 330px;
+    width: 410px;
     transition: trasform 0.3s ease-in-out;
 }
 
