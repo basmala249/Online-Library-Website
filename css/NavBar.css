@@ -26,12 +26,12 @@
 }
 
 
-a{
+nav a{
     text-decoration: none;
     color: rgb(244, 238, 232);
 }
 
-a:hover{
+nav a:hover{
    font-size: x-large;
    color: rgb(86, 75, 23);
    
