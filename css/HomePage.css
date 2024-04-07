@@ -17,7 +17,7 @@ h1{
 #Intro {
     display: flex;
     border-radius: 5px;
-    background: url('BackGround1.jpg');
+    background: url('image/BackGround1.jpg');
     background-attachment: fixed;
 }
 
