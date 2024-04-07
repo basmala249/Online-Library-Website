@@ -5,6 +5,7 @@
 #FirstPara span{
     opacity: 0;
     transition: opacity 1s ease;
+    color: rgb(219, 226, 232) ;
 }
 
 #FirstPara:hover span{
