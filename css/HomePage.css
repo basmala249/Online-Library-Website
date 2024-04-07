@@ -11,13 +11,13 @@ h1{
     opacity: 1;
     font-size: larger;
     transition-delay: 0s;
-    color: rgb(178, 91, 179) ;
+    color: rgb(194, 213, 230) ;
  }
 
 #Intro {
     display: flex;
     border-radius: 5px;
-    background: url('image/BackGround1.jpg');
+    background-color: rgb(130, 60, 221);
     background-attachment: fixed;
 }
 
