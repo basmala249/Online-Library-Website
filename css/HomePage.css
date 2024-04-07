@@ -11,13 +11,13 @@ h1{
     opacity: 1;
     font-size: larger;
     transition-delay: 0s;
-    color: rgb(194, 213, 230) ;
+    color: rgb(219, 226, 232) ;
  }
 
 #Intro {
     display: flex;
     border-radius: 5px;
-    background-color: rgb(130, 60, 221);
+    background-color: rgb(162, 110, 230);
     background-attachment: fixed;
 }
 
