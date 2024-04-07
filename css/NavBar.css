@@ -2,61 +2,41 @@
     border: beige;
     border-style: outset;
     width: auto;
-    height: 9%;
+    height: 60px; /* Adjust height as needed */
     box-shadow: 5px 5px 5px 10px rgba(237, 230, 230, 0.866);
-    padding-top: 1.6% ;
+    padding-top: 20px; 
     background-color: rgb(228, 193, 68);
     display: flex;
+    
 }
 
-#image1{
+#image1 {
     height: 30px;
     width: 69px;
     border-radius: 5%;
     padding-left: 5px;
     padding-bottom: 2%;
-    transition: trasform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-#image1:hover{
+#image1:hover {
     transform: scale(1.1);
 }
 
-
-nav a{
+nav a {
     text-decoration: none;
     color: rgb(244, 238, 232);
 }
 
-nav a:hover{
-   font-size: x-large;
-   color: rgb(86, 75, 23);
-   
+nav a:hover {
+    font-size: x-large;
+    color: rgb(86, 75, 23);
 }
+
+nav {
+    padding-left: 2.5%;
+}
+
 #Home{
-    padding-left: 14%;
-}
-
-#Categories{
-    padding-left: 2.5%;
-}
-
-#About{
-    padding-left: 2.5%;
-}
-
-#Contact{
-    padding-left: 2.5%;
-}
-
-#Login{
-    padding-left: 2.5%;
-}
-
-#User{
-    padding-left: 14%;
-}
-
-#Admin{
-    padding-left: 1%;
+   padding-left: 250px;
 }
