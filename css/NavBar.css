@@ -7,7 +7,6 @@
     padding-top: 20px; 
     background-color: rgb(228, 193, 68);
     display: flex;
-    
 }
 
 #image1 {
@@ -39,4 +38,53 @@ nav {
 
 #Home{
    padding-left: 250px;
+}
+
+.openSearch #FirstDiv a{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchIcon{
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 5px;
+
+}
+
+.search-box{
+    position: absolute;
+    height: 45px;
+    right: 310px;
+    max-width: 600px;
+    width: 100%;
+    background-color: red;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s linear;
+}
+
+.openSearch .search-box{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-box .searchIcon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: blue;
+}
+
+.search-box input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fff;
+    padding: 0 15px 0 45px;
 }
