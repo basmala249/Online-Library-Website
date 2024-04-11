@@ -2,8 +2,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/NavBar.css">
+    <script src="js/search.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
     <div id="FirstDiv">
         <img src="image/Logo1.jpg" id="image1">
         <nav id="Home"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
@@ -13,6 +17,11 @@
         <nav id="Login"><a href="login.html" target="_blank">Log Out</a></nav>
         <nav id="User"><a href="user-profile.html" target="_blank">User Profile</a></nav>
         <nav id="Admin"><a href="admin-profile.html" target="_blank">Admin Profile</a></nav>
+        <i class="fa fa-search searchIcon" id="searchIcon" style="padding-left: 50px;"></i>
+        <div class="search-box">
+            <i class="fa fa-search searchIcon" style="padding-left: 5px; padding-bottom: 10px;"></i>
+            <input type="text" placeholder="Search here...">
+        </div>
     </div>
 </body>
 </html>
