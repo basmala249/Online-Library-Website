@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+    font-family: "Lucida Handwriting";
+        padding: 0;
+        
+}
+
+body{
+background-color: white;
+    font-size: larger;
+
+}
+.img1{
+   width: 660px;
+   height: 660px;
+    border-radius: 1000px;
+    margin-right: 10px;
+    float: left;
+}
+#restparagraph{
+    display: none;
+}
+.btnreadmore {
+    font-size: 2rem;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color:rgb(160, 15, 183) ;
+    text-align: center;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 4px;
+}
+ 
+button:hover {
+    background-color:rgb(100, 4, 114) ;
+}
