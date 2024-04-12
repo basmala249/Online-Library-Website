@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/NavBar.css">
         <title>About-Us</title>
+        <link rel="stylesheet" href="css/About Us.css"/>
+        <script src="js/About Us.js"></script>
+
     </head>
-    <body>
-        <div id = "FirstDiv"  >
-            <div id="SecondDiv">
-             <img src="image/Logo1.jpg" id="image1">
-             <nav id="Home"><a href="Home-page.html"  target= "_self" id="Start">Home</a></nav>
-             <nav id="Categories"><a href="Categories.html" target="_self">Categories</a></nav>
-             <nav id="About"><a href="About-us.html"   target="_self">About-Us</a></nav>
-             <nav id="Contact"><a href="Contact-us.html" target="_self">Contact-Us</a></nav>
-             <nav id="Login"><a href="Login.html"    target="_self">Log-Out</a></nav>
-            <nav id="User"><a href="User-Profile.html" target="_self">User Profile  </a></nav>
-            <nav id="Admin"><a href="Admin-Profile.html" target="_self">Admin Profile</a></nav>
-           </div>
-         </div>
-         <br>
-        <h1>ABOUT_US</h1>
-        <div style="display: flex;" >
-            <article style="font-size: larger;">
-            <p style="font-size: larger"><u>BOOKTOPIA</u> your virtual haven for literary exploration and knowledge.
-                <br><p> At BOOKTOPIA, we are passionate about providing readers with a vast collection of books, fostering a love for reading, and promoting lifelong learning.
+    <body> 
+        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="70" style="margin: 0; padding: 0;"></iframe>
+   <header> 
+    <h1>ABOUT_US</h1>
+        <h3>BOOKTOPIA your virtual haven for literary exploration and knowledge.</h3>
+    </header>
+       
+    <img class="img1"src="image/about us.PNG" alt="About-Us">
+               <p> At <b>BOOKTOPIA</b>, we are passionate about providing readers with a vast collection of books, fostering a love for reading, and promoting lifelong learning.
                     Our online platform allows you to access these materials conveniently from any device, anytime, and anywhere. We understand the importance of staying connected in today's digital age, and we strive to provide a seamless and user-friendly experience on our website.
                 </p>
                 <p>Our online library is designed to provide an enjoyable reading experience, offering a diverse range of genres and categories to cater to every reader's taste.
                  Our library helps the reader to view and search for books by author name or title book to borrow.
                  We allow the authors to add their books in our library and edit in its details and delete book if he wants.
-                we provide categories history books , person development books , Children books and more books. </p>
+                we provide categories history books , person development books , Children books and more books.... </p>
+                <div id="restparagraph">
                 <p>With BOOKTOPIA, you have access to a wealth of literary treasures at your fingertips.
                     To ensure that you have access to the latest and most relevant information, we regularly update our library with new releases, popular titles, and educational resources. Our team is committed to curating a diverse collection that reflects the interests and preferences of our readers.
                <br>Furthermore, we value your feedback and suggestions. If there's a particular book or resource you'd like to see in our library, please let us know, and we'll do our best to make it available for you.
                 </p>
                 <p>Thank you for being a part of our online library community. We are dedicated to providing you with an enriching reading experience and empowering you with knowledge through our extensive collection. 
                 tart exploring our website today and embark on a journey of discovery!</p>
-           
-        </article>
-        <div style="text-align: right;">
-        <img  src="image/about us.PNG" alt=""width="600px">
-        </div>
-        </div>
+                </div>
+                <button class="btnreadmore" onclick="toggleVisibility()">Read More</button>
+                
+        
     </body>
 </html>
