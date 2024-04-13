@@ -1,12 +1,12 @@
 function toggleVisibility() {
     var div = document.getElementById("restparagraph");
-    var button = document.querySelector("button");
+    var  btnreadmore = document.querySelector(" .btnreadmore");
 
     if (div.style.display === "none") {
       div.style.display = "block";
-      button.textContent = "Read Less";
+      btnreadmore.textContent = "Read Less";
     } else {
       div.style.display = "none";
-      button.textContent = "Read More";
+      btnreadmore.textContent = "Read More";
     }
   }
