@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
- <div style="height: 15% ; width : 100% ; border: 2px solid;" >
-  <div style="display: flex; padding-top: 2.5%;" >
-   <nav style="text-align: left;"><img src="image/logo.jpg" style="height: 70px; width: 100px; padding-left: 15%;"></nav> 
-   <nav style="text-align: right; padding-right: 1%; padding-left: 52%;"><a href="Home-page.html" style="text-decoration: none";target= "_self">Home</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Categories.html" style="text-decoration: none;" target="_self">Categories</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="About-us.html" style="text-decoration: none;" target="_self">About-Us</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Contact-us.html" style="text-decoration: none;"target="_self">Contact-Us</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Login.html" style="text-decoration: none;"target="_self">Log-out</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="User-Profile.html" style="text-decoration: none;" target="_self">User Profile</a></nav>
-   <nav style="text-align: right; padding-right: 2%;"><a href="Admin-Profile.html" style="text-decoration: none;" target="_self">Admin Profile</a></nav>
-</div>
- </div>
+
     <head>
         <title>his his last bow</title>
+        <link rel="stylesheet" href="css/Bookpage.css"/>
+        <script src="js/ReadMore.js"></script>
+        
     </head>
-        <header>
-            <h1>his last bow</h1>
-            <h2>Author:ARTHUR CONAN DOYLE</h2>
-            <h3>ISBN 10:  0719515815  ISBN 13: 9780719515811</h3>
-            <p style="font-size: x-large;" > <mark>Current State:Available NOW.</mark></p>
-            <button style="font-size: larger;" >Borrow</button>
+    <body>
+        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="70" style="margin: 0; padding: 0;"></iframe>
+        <img class="bookcover" src="image/His_Last_Bow_1917_cover.jpg" alt="His_Last_Bow" > 
+        <button class="btn">Borrow</button>
+        <div class="inset">
+            <h1>His_Last_Bow </h1>   
+            <div class="Authorimg">
+               <img class="author" src="image/ARTHUR CONAN DOYLE.jpeg" alt="ARTHUR CONAN DOYLE.jpeg">
+               <h3>Author:  ARTHUR CONAN DOYLE</h3>
+            </div>
+            <p><b>ISBN (10):</b>  0719515815   <b>ISBN (13):</b> 9780719515811</p>
+        
+        </div>
+        <div class="container">
+       
             <h2><b>Overview:</b></h2>
-        </header>
-<div  style="display: flex;"style="font-size:larger">
-        <div style="font-size:large">
-        <p style="padding-top: 50;">His Last Bow is the final book written by Arthur Conan Doyle starring the infamous Sherlock Holmes. It follows Holmes when he comes back from the dead after The Reichenbach Falls event. He decides he isn't actually retiring but this book really is the end.
-        </p>
-        <p>In truth, I find it difficult to review this book. It is already so well known and Holmes is almost a part of British culture. If I were to say anything bad about it I highly doubt that anybody would believe me. Not that I would wish to say anything bad about it anyway.</p>
-        <p>Not all the stories are in order, the last merely being the definite last. And what a fine finish it is, Holmes finally having the ending he deserves, set when Britain is on the brink of war. There are some brilliant stories in this book, my favourite probably being one where Holmes is supposedly having a break on the coast. A horrific death is discovered, with few clues left. Of course Holmes can't keep himself away and the case is solved in days, in that way which makes Holmes so incredible both as a detective and as a character.</p>
-        <p>Conan Doyle must have had a truly brilliant mind to create mysteries which at first seem so impossible both to commit or to solve. I would rate the stories 9/10, and apologise for such a short review but I can find nothing to find fault with.</p></div>
-        <div style="text-align: right;" >
-        <img src="image/His_Last_Bow_1917_cover.jpg" alt="" width="400">
-    </div>
-</div>
+     
+            <p>His Last Bow is the final book written by Arthur Conan Doyle starring the infamous Sherlock Holmes. It follows Holmes when he comes back from the dead after The Reichenbach Falls event. He decides he isn't actually retiring but this book really is the end.
+            </p>
+            
+            
+             <div id="restparagraph">
+                <p>In truth, I find it difficult to review this book. It is already so well known and Holmes is almost a part of British culture. If I were to say anything bad about it I highly doubt that anybody would believe me. Not that I would wish to say anything bad about it anyway.</p>
+                <p>Not all the stories are in order, the last merely being the definite last. And what a fine finish it is, Holmes finally having the ending he deserves, set when Britain is on the brink of war. There are some brilliant stories in this book, my favourite probably being one where Holmes is supposedly having a break on the coast. A horrific death is discovered, with few clues left. Of course Holmes can't keep himself away and the case is solved in days, in that way which makes Holmes so incredible both as a detective and as a character.</p>
+                <p>Conan Doyle must have had a truly brilliant mind to create mysteries which at first seem so impossible both to commit or to solve. I would rate the stories 9/10, and apologise for such a short review but I can find nothing to find fault with.</p>
+    
+             </div>
+             <button class="btnreadmore" onclick="toggleVisibility()">Read More</button>
+         
+        </div>
+            
+            
+            
+
     </body>
 </html>
