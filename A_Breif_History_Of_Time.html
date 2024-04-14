@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html>
+ 
     <head>
-        <link rel="stylesheet" href="css/NavBar.css">
         <title>A_Breif_History_Of_Time</title>
+        <link rel="stylesheet" href="css/Bookpage.css"/>
+        <script src="js/ReadMore.js"></script>
     </head>
-    <body>
-        <div id = "FirstDiv"  >
-            <div id="SecondDiv">
-             <img src="image/Logo1.jpg" id="image1">
-             <nav id="Home"><a href="Home-page.html"  target= "_self" id="Start">Home</a></nav>
-             <nav id="Categories"><a href="Categories.html" target="_self">Categories</a></nav>
-             <nav id="About"><a href="About-us.html"   target="_self">About-Us</a></nav>
-             <nav id="Contact"><a href="Contact-us.html" target="_self">Contact-Us</a></nav>
-             <nav id="Login"><a href="Login.html"    target="_self">Log-Out</a></nav>
-            <nav id="User"><a href="User-Profile.html" target="_self">User Profile  </a></nav>
-            <nav id="Admin"><a href="Admin-Profile.html" target="_self">Admin Profile</a></nav>
-           </div>
-         </div>
-         <br>
-        <header>
-            <h1>A_Breif_History_Of_Time </h1>
-            <h2>Author:  Stephen Hawking</h2>
-            <h3>ISBN (13): 978-0-553-10953-5</h3>
-            <p style="font-size: x-large;" > <mark>Current State:Available NOW.</mark></p>
-            <button style="font-size: larger;" >Borrow</button>
-            <h2><b>Overview:</b></h2>
-        </header>
-     <div  style="display: flex;"style="font-size:larger">
-        <div style="font-size:large">
-        <p style="padding-top: 50;">In A Brief History of Time, Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe, which is the object of study of astronomy and modern physics. He talks about basic concepts like space and time, basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity)
+    <body >
+        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="115px" style="margin: 0; padding: 0;"></iframe>
+            <img class="bookcover" src="image/A_Breif_History_Of_Time.jpg" alt="A_Breif_History_Of_Time" > 
+            <button class="btn">Borrow</button>
+        <div class="inset">
+            <h1>A_Breif_History_Of_Time </h1>   
+            <div class="Authorimg">
+               <img class="author" src="image/Stephen Hawking.jpg" alt="Stephen Hawking">
+               <h3>Author: Stephen Hawking</h3>
+            </div>
+            <p><b>ISBN (10):</b> 0735211299  <b>ISBN (13):</b> 9780553109535</p>
+        
+        </div>
+       <div class="container">
+       
+           <h2><b>Overview:</b></h2>
+
+           In A Brief History of Time, Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe, which is the object of study of astronomy and modern physics. He talks about basic concepts like space and time, basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity)
         </p>
         <p>He discusses two major theories, general relativity and quantum mechanics, that modern scientists use to describe the Universe.
         <br> Finally, he talks about the search for a unifying theory that describes everything in the Universe in a coherent manner.
          <br>He discusses the history of astronomical studies, particularly ancient Greek philosopher Aristotle's conclusions about spherical Earth and a circular geocentric model of the Universe, later elaborated upon by the second-century Greek astronomer Ptolemy.
         </p>
-        <p style="padding-top: 50;">Hawking then depicts the rejection of the Aristotelian and Ptolemaic model and the gradual development of the currently accepted heliocentric model of the Solar System. Hawking also covers how the topic of the origin of the Universe and time was studied and debated over the centuries</p>
+        <div id="restparagraph">
+            Hawking then depicts the rejection of the Aristotelian and Ptolemaic model and the gradual development of the currently accepted heliocentric model of the Solar System. Hawking also covers how the topic of the origin of the Universe and time was studied and debated over the centuries</p>
             <h3>Learn :</h3>
             <ul>
               <li>First, nature of time</li>
               <li>Second, the origin of the Universe</li>
               <li>Finally, the fundamental laws that govern physics. It is a guide to the complexities of the cosmos in a simple and concise language</li>
             </ul>
-         </div>
-        <div style="text-align: right;" >
-        <img src="image/A_Breif_History_Of_Time.jpg" alt="" width="400">
-    </div>
-   </div>
- </body>
+        </div> 
+        
+        <button class="btnreadmore" onclick="toggleVisibility()">Read More</button>
+    
+        </div>
+        
+    </body>
 </html>
