@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
- <div style="height: 15% ; width : 100% ; border: 2px solid;" >
-  <div style="display: flex; padding-top: 2.5%;" >
-   <nav style="text-align: left;"><img src="image/logo.jpg" style="height: 70px; width: 100px; padding-left: 15%;"></nav> 
-   <nav style="text-align: right; padding-right: 1%; padding-left: 52%;"><a href="Home-page.html" style="text-decoration: none";target= "_self">Home</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Categories.html" style="text-decoration: none;" target="_self">Categories</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="About-us.html" style="text-decoration: none;" target="_self">About-Us</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Contact-us.html" style="text-decoration: none;"target="_self">Contact-Us</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="Login.html" style="text-decoration: none;"target="_self">Log-out</a></nav>
-   <nav style="text-align: right; padding-right: 1%;"><a href="User-Profile.html" style="text-decoration: none;" target="_self">User Profile</a></nav>
-   <nav style="text-align: right; padding-right: 2%;"><a href="Admin-Profile.html" style="text-decoration: none;" target="_self">Admin Profile</a></nav>
-</div>
- </div>
     <head>
         <title>Snow White</title>
+        <link rel="stylesheet" href="css/Bookpage.css"/>
+        <script src="js/ReadMore.js"></script>
     </head>
-        <header>
-            <h1>Snow White </h1>
-            <h2>Author: The Brothers Grimm </h2>
-            <h3>ISBN (13): 9780736421867</h3>
-            <p style="font-size: x-large;" > <mark>Current State:Available NOW.</mark></p>
-            <button style="font-size: larger;" >Borrow</button>
-            <h2><b>Overview:</b></h2>
-        </header>
-<div  style="display: flex;"style="font-size:larger">
-        <div style="font-size:large">
-        <p style="padding-top: 50;">
-            Step into a world of magic and wonder with Snow White! This timeless tale follows a princess of unparalleled beauty, Snow White, who sparks the envy of her wicked stepmother, the Evil Queen. Consumed by jealousy, the Queen plots to get rid of Snow White, but fate takes a twist, leading Snow White on a daring escape into the heart of a mysterious forest.
-        </p>
-        <p style="padding-top: 50;">There, she finds refuge with a group of lovable dwarfs, forging a heartwarming friendship. But the Queen's reach is long, and she devises a cunning plan to vanquish Snow White once and for all. Will true love prevail, or will the Queen's evil intentions triumph? Dive into the pages of Snow White and discover a captivating story filled with adventure, friendship, and a touch of magic that will leave you enchanted.</p>
-            <h3>Learn how to:</h3>
-            <ul>
-                <li>The importance of kindness.</li>
-                <li>The power of friendship.</li>
-                <li>Beauty is more than skin deep.</li>
-                <li>Don't trust strangers.</li>
-            </ul>
-            
+    <header>
+        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="70" style="margin: 0; padding: 0;"></iframe>
+        <img class="bookcover" src="image/snow white.jpeg" alt="" > 
+        <button class="btn">Borrow</button>
+    <div class="inset">
+        <h1>Snow White  </h1>   
+        <div class="Authorimg">
+           <img class="author" src="image/Author-Of-Snow-White.png" alt="">
+           <h3>Author: Wanda Gág  </h3>
         </div>
-        <div style="text-align: right;" >
-        <img src="image/snow white.jpeg" alt="" width="400">
+        <p>ISBN (13): 9780736421867</p>
+    
     </div>
-</div>
-    </body>
+   <div class="container">
+   
+       <h2><b>Overview:</b></h2>
+
+    <p>
+        Step into a world of magic and wonder with Snow White! This timeless tale follows a princess of unparalleled beauty, Snow White, who sparks the envy of her wicked stepmother, the Evil Queen. Consumed by jealousy, the Queen plots to get rid of Snow White, but fate takes a twist, leading Snow White on a daring escape into the heart of a mysterious forest.
+    </p>
+    <div id="restparagraph">
+        <p>
+            There, she finds refuge with a group of lovable dwarfs, forging a heartwarming friendship. But the Queen's reach is long, and she devises a cunning plan to vanquish Snow White once and for all. Will true love prevail, or will the Queen's evil intentions triumph? Dive into the pages of Snow White and discover a captivating story filled with adventure, friendship, and a touch of magic that will leave you enchanted.
+        <h3><b>Learn many valuable lessons:</b></h3>
+        <ul>
+            <li>Love is not selfish.</li>
+            <li>The importance of kindness.</li>
+            <li>The power of friendship.</li>
+            <li>Beauty is more than skin deep.</li>
+            <li>Don't trust strangers.</li>
+        </ul>
+        </p>  
+    </div> 
+    
+    <button class="btnreadmore" onclick="toggleVisibility()">Read More</button>
+
+    </div>
+    
+</body>
 </html>
+        
