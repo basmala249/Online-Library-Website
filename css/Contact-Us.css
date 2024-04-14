@@ -113,3 +113,18 @@ body {
     background-color: #0077b5; 
     color: white;
   }
+.footer {
+    background-color: #08979D; 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border: beige;
+    border-style: outset;
+    width: auto;
+    height: 70px; 
+    box-shadow: 5px 5px 5px 10px rgba(237, 230, 230, 0.866);
+    padding-top: 20px; 
+    border-top: 1px solid #ddd;
+  }
