@@ -72,6 +72,51 @@ const books= [
     Current_state: "Available"
   },
   {
+    ISBN13: "9780736421973",
+    ISBN10: "",
+    image: "beauty and beast for web project.png",
+    name: "Beauty and the Beast",
+    Author: "Leprince de Beaumont, Jeanne-Marie",
+    category: "Children Books",
+    Current_state: "Available"
+  },
+  {
+    ISBN13: "",
+    ISBN10: "",
+    image: "LionKing.png",
+    name: "Lion King",
+    Author: "Don Ferguson",
+    category: "Children Books",
+    Current_state: "Available"
+  },
+  {
+    ISBN13: "",
+    ISBN10: "",
+    image: "Aladdin.png",
+    name: "Aladdin",
+    Author: "Susan Yardley (illustrated by David Roberts)",
+    category: "Children Books",
+    Current_state: "Available"
+  },
+  {
+    ISBN13: "",
+    ISBN10: "",
+    image: "WoodyWoodpecker.png",
+    name: "Woody Woodpecker",
+    Author: "Ben Hardaway",
+    category: "Children Books",
+    Current_state: "Available"
+  },
+  {
+    ISBN13: "9780736421867",
+    ISBN10: "",
+    image: "snow white.jpeg",
+    name: "Snow White",
+    Author: "The Brothers Grimm",
+    category: "Children Books",
+    Current_state: "Available"
+  },
+  {
     ISBN13: "9780735211292",
     ISBN10: "0735211299",
     image: "Atomic habits book.PNG",
@@ -325,6 +370,7 @@ function selectInput(name){
   inputBox.value = name.innerHTML;
   resultBox.innerHTML = "";
 }
+
 
 
   
