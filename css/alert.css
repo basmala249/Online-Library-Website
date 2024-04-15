@@ -1,0 +1,10 @@
+#AlertMessage{
+    height: 30px;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 13px;
+    text-align: center;
+    color: rgb(223, 85, 131);
+    background-color: rgb(175, 239, 164);
+    opacity: 0;
+}
