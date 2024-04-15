@@ -224,5 +224,46 @@ nav {
   .dropdown:hover .dropbtn {
     background-color: #191623;}
 
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown button */
+#dropbtn {
+  background-color: #08979D;
+  color: white;
+  padding: 10px;
+  padding-top: 17px;
+  font-size: 14px;
+  border: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Position the dropdown content */
+#dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  font-size: large;
+  top: auto; /* Reset default top position */
+  bottom: -98px; /* Position above the dropdown button */
+  background-color: rgb(221, 86, 221);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown content when hover or click on dropdown button */
+#dropdown:hover #dropdown-content,
+#dropdown:focus #dropdown-content {
+  display: block;
+  
+}
+
+
 
     
