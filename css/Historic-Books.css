@@ -70,7 +70,7 @@ h2{
     position: absolute;
     background-color: rgb(171, 164, 164);
     color: white;
-    bottom: -620px; /* to display details of book in the bottom of cover of book */
+    bottom: -705px; /* to display details of book in the bottom of cover of book */
     transition:  0.5s;
   }
   h1{
@@ -111,7 +111,7 @@ h2{
     position: absolute;
     background-color: rgb(171, 164, 164);
     color: white;
-    bottom: -1135px;   /* to display details of book in the bottom of cover of book */
+    bottom: -1225px;   /* to display details of book in the bottom of cover of book */
     transition:  0.5s;
   }
   .new2card:hover .details2{
