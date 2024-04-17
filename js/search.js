@@ -6,7 +6,8 @@ const books= [
     name: "A_Breif_History_Of_Time",
     Author: "Stephen Hawking",
     category: "Scientific",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "A_Breif_History_Of_Time.html"
   },
   {
     ISBN13: "",
@@ -15,7 +16,8 @@ const books= [
     name: "Scaraity Brain",
     Author: "Michael Easter",
     category: "Scientific",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Scaracity_Brain.html"
   },
   {
     ISBN13: "",
@@ -24,7 +26,8 @@ const books= [
     name: "The_Elegant_Universe",
     Author: "Brian Greene",
     category: "Scientific",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "The_Elegant_Universe.html"
   },
   {
     ISBN13: "",
@@ -33,7 +36,8 @@ const books= [
     name: "The_Selfish_Gene",
     Author: "Brian Greene",
     category: "Scientific",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "The_Selfish_Gene.html"
   },
   {
     ISBN13: "9780593476093",
@@ -42,7 +46,8 @@ const books= [
     name: "Nuclear War: A Scenario",
     Author: "Annie Jacobsen",
     category: "Historic",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Nuclear_War.html"
   },
   {
     ISBN13: "9781631498442",
@@ -51,7 +56,8 @@ const books= [
     name: "The Rise and Fall of the Second American Republic: Reconstruction, 1860-1920",
     Author: "Manisha Sinha",
     category: "Historic",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "The_Rise_and_fall.html"
   },
   {
     ISBN13: "9780063304321",
@@ -60,7 +66,8 @@ const books= [
     name: "Normal Women: Nine Hundred Years of Making History",
     Author: "Philippa Gregory",
     category: "Historic",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Normal_women.html"
   },
   {
     ISBN13: "9780593474136",
@@ -69,7 +76,8 @@ const books= [
     name: "The Return of Great Powers: Russia, China, and the Next World War",
     Author: "Jim Sciutto",
     category: "Historic",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "The_Return_of_Great_Powers.html"
   },
   {
     ISBN13: "9780736421973",
@@ -78,7 +86,8 @@ const books= [
     name: "Beauty and the Beast",
     Author: "Leprince de Beaumont, Jeanne-Marie",
     category: "Children Books",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Beauty and the Beast.html"
   },
   {
     ISBN13: "",
@@ -87,7 +96,8 @@ const books= [
     name: "Lion King",
     Author: "Don Ferguson",
     category: "Children Books",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "LionKing.html"
   },
   {
     ISBN13: "",
@@ -96,7 +106,8 @@ const books= [
     name: "Aladdin",
     Author: "Susan Yardley (illustrated by David Roberts)",
     category: "Children Books",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Aladdin.html"
   },
   {
     ISBN13: "",
@@ -105,7 +116,8 @@ const books= [
     name: "Woody Woodpecker",
     Author: "Ben Hardaway",
     category: "Children Books",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Woody.html"
   },
   {
     ISBN13: "9780736421867",
@@ -114,7 +126,8 @@ const books= [
     name: "Snow White",
     Author: "The Brothers Grimm",
     category: "Children Books",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Snow White.html"
   },
   {
     ISBN13: "9780735211292",
@@ -123,7 +136,8 @@ const books= [
     name: "Atomic Habits",
     Author: "James Clear",
     category: "Personal development",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Atomic Habits.html"
   },
   {
     ISBN13: "9780743269513",
@@ -132,7 +146,8 @@ const books= [
     name: "The 7 Habits of Highly Effective People",
     Author: "Stephen R. Covey",
     category: "Personal development",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "The_Habit_of_Highly_Effective_People.html"
   },
   {
     ISBN13: "",
@@ -141,7 +156,8 @@ const books= [
     name: "Rich Dad Poor Dad",
     Author: "Robert T. Kiyosaki",
     category: "Personal development",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Rich Dad Poor Dad.html"
   },
   {
     ISBN13: "",
@@ -150,7 +166,8 @@ const books= [
     name: "The 5 AM Club:Own Your Morning.Elevate Your Life",
     Author: "Robin S. Sharma",
     category: "Personal development",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "the5amclub.html"
   },
   {
     ISBN13: "",
@@ -159,7 +176,8 @@ const books= [
     name: "Designing Your life",
     Author: "Bill Burnett and Dave Evans",
     category: "Personal development",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "Designing Your life.html"
   },
   {
     ISBN13: "9781522810025",
@@ -168,7 +186,8 @@ const books= [
     name: "The Return Of Sherlock Holmes",
     Author: "CONAN DOYLE",
     category: "Police",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "the-return-of.html"
   },
   {
     ISBN13: "9780719515811",
@@ -177,7 +196,8 @@ const books= [
     name: "his last bow",
     Author: "CONAN DOYLE",
     category: "Police",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "his-last-bow.html"
   },
   {
     ISBN13: "9781949460568",
@@ -186,7 +206,8 @@ const books= [
     name: "A study in scarlet",
     Author: "CONAN DOYLE",
     category: "Police",
-    Current_state: "Available"
+    Current_state: "Available",
+    page: "a-study-in-scarlet.html"
   }
 ]
   
@@ -315,6 +336,7 @@ inputBox.onkeyup = function(){
 };
 */
 
+
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("search-item");
 
@@ -339,15 +361,26 @@ inputBox.onkeyup = function () {
     if (result.length > 0) {
       let resultList = "";
       for (const book of result) {
-        resultList += 
-        `<div class="book">
+        resultList +=
+        `<a href="${book.page}" target="_blank" class="book"> 
+          <img src="image/${book.image}">
+          <div class="b-details">
+            <h2>${book.name}</h2>
+            <p>Author: ${book.Author}</p>
+            <p>Category: ${book.category}</p>
+          </div>
+        </a>` 
+
+        /*`
+        <div class="book">
           <img src="${"image/"+book.image}">
           <div class="b-details">
-            <h2 onclick=selectInput(this)>${book.name}</h2>
+            <h2>${book.name}</h2>
             <p>Author: ${book.Author}</p>
-            <p>Category: ${book.category}<\p>
+            <p>Category: ${book.category}</p>
           </div>
-        </div>`;
+        </div>
+        `;*/
       }
       resultBox.innerHTML = resultList;
     } 
@@ -356,21 +389,5 @@ inputBox.onkeyup = function () {
     }
   } 
 
-  inputBox.addEventListener('keyup', () => {
-    const searchTerm = input;
-    if (searchTerm) {
-      resultBox.style.display = block;
-    } else {
-      resultBox.style.display = none;
-    }
-  });
-};
-
-function selectInput(name){
-  inputBox.value = name.innerHTML;
-  resultBox.innerHTML = "";
-}
-
-
-
   
+};
