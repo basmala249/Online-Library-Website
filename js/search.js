@@ -388,6 +388,4 @@ inputBox.onkeyup = function () {
       resultBox.innerHTML = "<p>No results found.</p>"; 
     }
   } 
-
-  
 };
