@@ -160,7 +160,6 @@ font-size:  10px;
 color: black
 }
 
-
 .result-box{
 background-color:#f1f1f1;
 overflow-y: scroll;
@@ -170,7 +169,7 @@ border-radius: 5px;
 display: none;
 }
 
-.search-box input:focus + .result-box{
+.search-box input:focus ~ .result-box{
 display: block;
 }
 
