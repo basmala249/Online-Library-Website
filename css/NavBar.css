@@ -166,7 +166,7 @@ overflow-y: scroll;
 height: 250px;
 width: 250px;
 border-radius: 5px;
-display: none;
+//display: none;
 }
 
 .search-box input:focus ~ .result-box{
