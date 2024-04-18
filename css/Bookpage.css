@@ -11,12 +11,6 @@
     border-right: 10px;
     border-left: 20px;
 }
-   
-body{
-background-color: white;
-    font-size: larger;
-
-}
 .bookcover{
    width: 400px;
    height: 550px;
@@ -56,9 +50,15 @@ background-color: white;
     padding-left: 450px; 
    
 }
-
+.container>p {
+  font-size: larger;
+}
+.container>ul {
+  font-size: larger;
+}
 #restparagraph{
     display: none;
+    font-size: larger;
 }
 .btnreadmore {
     font-size: 1rem;
@@ -97,3 +97,49 @@ background-color: white;
     display: flex;
     align-items: center;
   }
+ /* ----------------codefooter and social media icons---------------------------------------- */
+.fa {
+  padding: 25px; 
+  font-size: 20px; 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%; /* Circular icons */
+}
+
+.fa:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Slight darkening on hover */
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background-color: #e1306c; 
+  color: white;
+}
+
+.fa-linkedin {
+  background-color: #0077b5; 
+  color: white;
+}
+.footer {
+  background-color:#08979D; 
+  padding: 2rem;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  width: auto;
+  height: 130px; 
+  padding-top: 10px;
+  padding-bottom: 0; 
+  margin-bottom: 0;
+}
