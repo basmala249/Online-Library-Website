@@ -7,6 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
       var message = document.getElementById('message').value;
       var a = 1;
 
+    // Validate email format
+       var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+       if (!emailRegex.test(email)) {
+           alert('Please enter a valid email address.');
+           a = 0;
+           return;
+       }
+
       if (name === '' || email === '' || message === '') {
           alert('Please fill in all required fields!');
           a = 0;
