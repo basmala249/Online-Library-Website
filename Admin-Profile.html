@@ -1,35 +1,108 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="Profile" content="Personal data">
-    <link rel="stylesheet" href="css/NavBar.css">
-    <title>Profile</title>
+<html>
+    <head>
+      <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Profile</title>
+     <link rel="stylesheet" href="css/NavBar.css">
+     <link rel="stylesheet" href="css/Admin.css">
+    <script src="js/search.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="FirstDiv">
+        <img src="image/Logo.jpg" id="image1">
+        <nav id="Home" class="rest"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
+        <nav id="Categories">
+            <div id="dropdown">
+              <button id="dropbtn" class="rest">Categories <i class="fas fa-caret-down"></i></button>
+              <div id ="dropdown-content">
+                <a href="Scientific-books.html" target="_blank">ScientificBooks</a>
+                <a href="Personal_development.html" target="_blank">PersonaldevelopmentBooks</a>
+                <a href="Historic-Books.html" target="_blank">HistoricBooks</a>
+                <a href="Children-Books.html" target="_blank">ChildrenBooks</a>
+                <a href="Detective-Books.html" target="_blank">DetectiveBooks</a>
+              </div>
+            </div>
+            </nav>
+        <nav id="About" class="rest"><a href="about-us.html" target="_self">About Us</a></nav>
+        <nav id="Contact" class="rest"><a href="contact-us.html" target="_self">Contact Us</a></nav>
+        <nav >
+             <div class="dropdown" >
+              <i class="fas fa-user dropbtn"></i>
+          <div class="dropdown-content">
+            <a id="link">My Profile</a>
+            <a href="Login.html" target="_self">Log out</a>
+          </div>
+          </div>
+          </nav>
+          <div class="search-box">
+            <i class="fa fa-search searchIcon" style= "margin-left: 225px;"></i>
+            <input type="text" placeholder="Search by Title, Author, or Genre" id="search-item" style="padding-left: 10px;">
+            <div class="result-box">
+            </div>
+          </div>
+
+    </div>
   </head>
-  <body style="background-color: rgb(215, 238, 234)">
-    <div id = "FirstDiv"  >
-        <div id="SecondDiv">
-         <img src="image/Logo1.jpg" id="image1">
-         <nav id="Home"><a href="Home-page.html"  target= "_self" id="Start">Home</a></nav>
-         <nav id="Categories"><a href="Categories.html" target="_self">Categories</a></nav>
-         <nav id="About"><a href="About-us.html"   target="_self">About-Us</a></nav>
-         <nav id="Contact"><a href="Contact-us.html" target="_self">Contact-Us</a></nav>
-         <nav id="Login"><a href="Login.html"    target="_self">Log-Out</a></nav>
-        <nav id="User"><a href="User-Profile.html" target="_self">User Profile  </a></nav>
-        <nav id="Admin"><a href="Admin-Profile.html" target="_self">Admin Profile</a></nav>
-       </div>
-     </div>
-     <br>
-    <h1>My Profile</h1>
-    <img src="image/profile.jpg" width="200px" height="200px" background-color:white>
-    <p style="font-size: larger;"><b>User Name : </b>john12</p>
-    <p style="font-size: larger;"><b>Full Name : </b>john smith</p>
-    <p style="font-size: larger;"><b>Email : </b>johns@gmail.com</p>
-    <p style="font-size: larger;"><b>Phone Number : </b>+1 408 235 6671</p>
-    <br><br>
-    <hr>
-    <button type = 'sumbit'>ADD BOOK</button>
-    <button type = 'sumbit'>EDIT BOOK</button>
-    <button type = 'sumbit'>DELETE BOOK</button>
+  <body>
+    <div id="admin">
+      <div class="left">
+        <img src="image/profile.jpg" class="img" width="100" height="130">
+        <h4 class="name">Ahmed_12</h4>
+      </div>
+      <div class="right">
+        <div class="info">
+          <h3>Information</h3>
+          <div class="info_data">
+              <div class="data">
+                <h4>User Name</h4>
+                <p>Ahmed_12</p>
+                </div>
+                <div class="data">
+                  <h4>Email</h4>
+                  <p>Ahmedwael2@gmail.com</p>
+                  </div>
+            </div>  
+           </div>
+           <div class="Author">
+            <h4>Author Works</h4>
+            <a href="Nuclear_War.html"><p>Nuclear War</p></a>
+            <a href="Normal_women.html"><p>Normal Women</p></a>
+            <a href="Snow White.html"><p>Snow White</p></a>
+           </div>
+           </div>
+           <div id="total">
+            <button id="addbtn">ADD BOOK</button>
+              <div  id="formContainer">
+                <form id="myForm">
+                  <label for="inputData">Enter Data of the book to add :</label><br> <br>
+                  <label for="title">Book Title</label>
+                  <input type="text" id="title" name="title" required><br>
+                  <label for="cate">Author</label>
+                  <input type="text" id="author" name="author" required><br>
+                  <label for="ed">Edition</label>
+                  <input type="text" id="ed" name="ed" required><br>
+                   <label for="img">Cover</label>
+                  <input type="text" id="img" name="img" required><br>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+              </div>
+           </div>
+
+           <footer class="footer">
+            <div class="social-container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+            <p style="color:#f2f2f2">&copy; Copyright  BOOKTOPIA 2024. All Rights Reserved.</p>
+          </footer>
+<script src="js/Buttons.js"></script>
   </body>
 </html>
