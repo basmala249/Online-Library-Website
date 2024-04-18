@@ -4,11 +4,53 @@
       <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/NavBar.css">
+    <script src="js/search.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Personal Development Books</title>
         <link rel="stylesheet" href="css/personal_development.css">
     </head>
     <body>
-      <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="150" style="margin:0 padding 0;"></iframe> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <div id="FirstDiv">
+        <img src="image/Logo.jpg" id="image1">
+        <nav id="Home" class="rest"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
+        <nav id="Categories">
+            <div id="dropdown">
+              <button id="dropbtn" class="rest">Categories <i class="fas fa-caret-down"></i></button>
+              <div id ="dropdown-content">
+                <a href="Scientific-books.html" target="_blank">ScientificBooks</a>
+                <a href="Personal_development.html" target="_blank">PersonaldevelopmentBooks</a>
+                <a href="Historic-Books.html" target="_blank">HistoricBooks</a>
+                <a href="Children-Books.html" target="_blank">ChildrenBooks</a>
+                <a href="Detective-Books.html" target="_blank">DetectiveBooks</a>
+              </div>
+            </div>
+            </nav>
+        <nav id="About" class="rest"><a href="about-us.html" target="_self">About Us</a></nav>
+        <nav id="Contact" class="rest"><a href="contact-us.html" target="_self">Contact Us</a></nav>
+        <nav >
+             <div class="dropdown" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="dropbtn" viewBox="0 0 16 16" >
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+        </svg>
+          <div class="dropdown-content">
+            <a id="link">My Profile</a>
+            <a href="Login.html" target="_self">Log out</a>
+          </div>
+          </div>
+          </nav>
+          <div class="search-box">
+            <i class="fa fa-search searchIcon" style= "margin-left: 225px;"></i>
+            <input type="text" placeholder="Search by Title, Author, or Genre" id="search-item" style="padding-left: 10px;">
+          
+            <div class="result-box">
+              
+            </div>
+          </div>
+        
+    </div>
         
         <div class="intro">
           <h2>Personal development category :</h2>
@@ -21,7 +63,7 @@
       </div>
         <div class="container">
           <div class="card">
-            <a href="Atomic Habits.html"  target="_self">
+            <a href="Atomic Habits.html"  target="_blank">
             <img  class="imgbook"src="image/Atomic habits book.PNG" alt="Atomic Habits"></a> 
              <div class="details">
             <h1>Atomic Habits</h1>
@@ -31,7 +73,7 @@
           </div>
           
           <div class="card">
-            <a href="The_Habit_of_Highly_Effective_People.html"  target="_self">
+            <a href="The_Habit_of_Highly_Effective_People.html"  target="_blank">
             <img  class="imgbook"src="image/the habit of highly effective people.PNG" alt="Atomic Habits"></a> 
              <div class="details">
             <h1>The Habit of Highly Effective People</h1>
@@ -40,7 +82,7 @@
              </div>
           </div>
           <div class="card">
-            <a href="Rich Dad Poor Dad.html"  target="_self">
+            <a href="Rich Dad Poor Dad.html"  target="_blank">
             <img  class="imgbook"src="image/rich dad poor dad.PNG" alt="Atomic Habits"></a> 
              <div class="details">
             <h1>Rich Dad Poor Dad</h1>
@@ -52,8 +94,8 @@
         <!-- -----------------------------div2---------------------------------------------- -->
         <div class="container2">
           <div class="new2card">
-          <a href="the5amclub.html"  target="_self">
-            <img  class="imgbook"src="image/the 5 am club.PNG" alt="Atomic Habits"></a> 
+          <a href="the5amclub.html"  target="_blank">
+            <img  class="imgbook"src="image/the 5 am club.PNG" alt="the 5 am club"></a> 
              <div class="details2">
             <h1>The 5 AM Club:Own Your Morning.Elevate Your Life</h1>
             <p>By Robin S. Sharma</p> 
@@ -61,7 +103,7 @@
              </div>
           </div> 
           <div class="new2card">
-            <a href="Designing Your life.html"  target="_self">
+            <a href="Designing Your life.html"  target="_blank">
             <img  class="imgbook"src="image/designing your life.PNG" alt="Atomic Habits"></a> 
              <div class="details2">
             <h1>Designing Your life</h1>
@@ -70,6 +112,15 @@
              </div>
           </div>
         </div>
-
+        <footer class="footer">
+          <div class="social-container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+          <p style="color:#f2f2f2">&copy; Copyright  BOOKTOPIA 2024. All Rights Reserved.</p> <!--#f2f2f2  #333333-->
+        </footer>
     </body>
 </html> 
