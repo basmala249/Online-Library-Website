@@ -1,19 +1,26 @@
-var form = document.getElementById('contactForm');
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
 
-form.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent default form submission
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      var a = 1;
 
-  // Add basic form validation 
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
-  var message = document.getElementById('message').value;
+      if (name === '' || email === '' || message === '') {
+          alert('Please fill in all required fields!');
+          a = 0;
+          return;
+      }
 
-  if (name === '' || email === '' || message === '') {
-    alert('Please fill in all required fields!');
-    return;  // Exit function if validation fails
-  }
+      // Save data to local storage
+      if (a == 1) {
+          localStorage.setItem('contactName', name);
+          localStorage.setItem('contactEmail', email);
+          alert('Your message has been sent! Thank you for contacting BOOKTOPIA.');
+      }
 
-  // After successful submission 
-  alert('Your message has been sent! Thank you for contacting us.');
-  form.reset();  // Reset form after successful submission
+      // Reset the form
+      document.getElementById('contactForm').reset();
+  });
 });
