@@ -37,6 +37,7 @@ body{
 }
 
 .wrapper .input-box{
+    margin-bottom: 18px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -53,7 +54,7 @@ body{
     width: 100%;
     height: 100%;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, 0.97);
     outline: none;
     font-size: 16px;
     color: #fff;
@@ -94,9 +95,17 @@ body{
     font-weight: 600 ;
 }
 .wrapper .role input{
+    margin-top: 18px;
     accent-color: #141516;
     margin-left :5px ;
     border: 1px solid #ccc;
     border-radius: 3px;
     background-color: #f0f0f0;
+}
+
+
+.input-field .error {
+    color: #c9052c;
+    font-size: 16px;
+    height: 13px;
 }
