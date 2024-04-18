@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Profile</title>
+     <link rel="stylesheet" href="css/NavBar.css">
+     <link rel="stylesheet" href="css/User.css">
+    <script src="js/search.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="FirstDiv">
+        <img src="image/Logo.jpg" id="image1">
+        <nav id="Home" class="rest"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
+        <nav id="Categories">
+            <div id="dropdown">
+              <button id="dropbtn" class="rest">Categories <i class="fas fa-caret-down"></i></button>
+              <div id ="dropdown-content">
+                <a href="Scientific-books.html" target="_blank">ScientificBooks</a>
+                <a href="Personal_development.html" target="_blank">PersonaldevelopmentBooks</a>
+                <a href="Historic-Books.html" target="_blank">HistoricBooks</a>
+                <a href="Children-Books.html" target="_blank">ChildrenBooks</a>
+                <a href="Detective-Books.html" target="_blank">DetectiveBooks</a>
+              </div>
+            </div>
+            </nav>
+        <nav id="About" class="rest"><a href="about-us.html" target="_self">About Us</a></nav>
+        <nav id="Contact" class="rest"><a href="contact-us.html" target="_self">Contact Us</a></nav>
+        <nav >
+             <div class="dropdown" >
+              <i class="fas fa-user dropbtn"></i>
+          <div class="dropdown-content">
+            <a id="link">My Profile</a>
+            <a href="Login.html" target="_self">Log out</a>
+          </div>
+          </div>
+          </nav>
+          <div class="search-box">
+            <i class="fa fa-search searchIcon" style= "margin-left: 225px;"></i>
+            <input type="text" placeholder="Search by Title, Author, or Genre" id="search-item" style="padding-left: 10px;">
+            <div class="result-box">
+            </div>
+          </div>
+    </div>
+  </head>
+  <body>
+    <div id="user">
+        <div class="left">
+            <img src="image/profile.jpg" class="img" width="100" height="130">
+            <h4 class="name">Ahmed_12</h4>
+            <a class="out" href="Login.html">Log out</a>
+          </div>
+          <div class="right">
+            <div class="info">
+              <h3>Information</h3>
+              <div class="info_data">
+                  <div class="data">
+                    <h4>User Name</h4>
+                    <p>Ahmed_12</p>
+                    </div>
+                    <div class="data">
+                      <h4>Email</h4>
+                      <p>Ahmedwael2@gmail.com</p>
+                      </div>
+                </div>  
+               </div>
+    
+               <div class="Borrowed">
+                <h4>Borrowed Books</h4>
+                <select multiple>
+                  <optgroup label="Books List">
+                      <option value="1">Atomic Habits</option>
+                      <option value="2">The Selfish Gene</option>
+                      <option value="3">Beauty and the Beast</option>
+                      <option value="4">His Last Bow</option>
+                  </optgroup>
+              </select>  
+            
+            </div>
+    
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="social-container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+          <p style="color:#f2f2f2">&copy; Copyright  BOOKTOPIA 2024. All Rights Reserved.</p>
+        </footer>
+      </body>
+    </html>
