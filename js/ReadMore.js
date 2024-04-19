@@ -10,15 +10,13 @@ function toggleVisibility() {
       btnreadmore.textContent = "Read More";
     }
   }
-
-function hideMessage(){
+  function Borrow(){
+    var c = document.getElementById("AlertMessage");
+    c.style.opacity = '1';
+    c.style.transition = 'opacity 0.5s ease';
+    setTimeout(hideMessage,2000);
+ }
+ function hideMessage() {
   var c = document.getElementById("AlertMessage");
-     c.style.opacity = '0';
+  c.style.opacity = '0';
 }
-
-function Borrow(){
-     var c = document.getElementById("AlertMessage");
-     c.style.opacity = '1';
-     c.style.transition = 'opacity 0.5s ease';
-     setTimeout(hideMessage,3000);
-  }
