@@ -1,4 +1,4 @@
- .inset{    /*border contain authorname and buttonborrow and authorimg and isbn */
+.inset{    /*border contain authorname and buttonborrow and authorimg and isbn */
     font-family:sans-serif;
     border: 9px outset rgb(160, 11, 160); 
     padding-left: 50px;
@@ -105,9 +105,9 @@
     border-radius: 50px;
     text-align: center;
     color:white;
-    background-color: rgb(175, 239, 164);
+    background-color: rgb(95, 223, 72);
     opacity: 0;
-    font-size: large;
+    font-size: larger;
 }
  /* ----------------codefooter and social media icons---------------------------------------- */
 .fa {
