@@ -14,7 +14,7 @@ function toggleVisibility() {
     var c = document.getElementById("AlertMessage");
     c.style.opacity = '1';
     c.style.transition = 'opacity 0.5s ease';
-    setTimeout(hideMessage,2000);
+    setTimeout(hideMessage,3000);
  }
  function hideMessage() {
   var c = document.getElementById("AlertMessage");
