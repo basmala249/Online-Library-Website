@@ -5,19 +5,64 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/NavBar.css">
+      <script src="js/search.js" defer></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Historic Books</title>
         <link rel="stylesheet" href="css/Historic-Books.css">
         
     </head>
     <body>
-        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="150" style="margin:0 padding 0;"></iframe> 
-        <div class="intro">
-          <h2>Historic Books category:</h2>
-          <p>History books make up an important genre in non-fiction. They help us understand the past so we can build a better future. From the American Civil War and two World Wars, to the Cold War and the Vietnam War, there is a vast selection of titles about the conflicts that have shaped our world. History books also provide a deep insight into key historical figures, from Genghis Khan to Ulysses Grant and Winston Churchill. World history is vast, and these 30 books are the tip of the iceberg. Our list of the best history books includes bestsellers, Pulitzer Prize winners and editor's picks from distinguished historians and biographers.            </p>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
-       </div>
+            
+    <div id="FirstDiv">
+      <img src="image/Logo.jpg" id="image1">
+      <nav id="Home" class="rest"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
+      <nav id="Categories">
+          <div id="dropdown">
+            <button id="dropbtn" class="rest">Categories <i class="fas fa-caret-down"></i></button>
+            <div id ="dropdown-content">
+              <a href="Scientific-books.html" target="_blank">ScientificBooks</a>
+              <a href="Personal_development.html" target="_blank">PersonaldevelopmentBooks</a>
+              <a href="Historic-Books.html" target="_blank">HistoricBooks</a>
+              <a href="Children-Books.html" target="_blank">ChildrenBooks</a>
+              <a href="Detective-Books.html" target="_blank">DetectiveBooks</a>
+            </div>
+          </div>
+          </nav>
+      <nav id="About" class="rest"><a href="about-us.html" target="_self">About Us</a></nav>
+      <nav id="Contact" class="rest"><a href="contact-us.html" target="_self">Contact Us</a></nav>
+      <nav >
+           <div class="dropdown" >
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="dropbtn" viewBox="0 0 16 16" >
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+      </svg>
+        <div class="dropdown-content">
+          <a id="link">My Profile</a>
+          <a href="Login.html" target="_self">Log out</a>
+        </div>
+        </div>
+        </nav>
+        <div class="search-box">
+          <i class="fa fa-search searchIcon" style= "margin-left: 205px;"></i>
+          <input type="text" placeholder="Search by Title, Author, or Genre" id="search-item" style="padding-left: 10px;">
         
-       <div class="container">
+          <div class="result-box">
+            
+          </div>
+        </div>
+      
+  </div>
+
+      <div class="intro">
+        <h2>Historic Books category:</h2>
+        <p id="para1">History books make up an important genre in non-fiction. They help us understand the past so we can build a better future. From the American Civil War and two World Wars, to the Cold War and the Vietnam War, there is a vast selection of titles about the conflicts that have shaped our world. </p>
+        <p id="para2">History books also provide a deep insight into key historical figures, from Genghis Khan to Ulysses Grant and Winston Churchill. World history is vast, and these 30 books are the tip of the iceberg. Our list of the best history books includes bestsellers, Pulitzer Prize winners and editor's picks from distinguished historians and biographers.            </p>
+    
+      </div>
+        
+      <div class="container">
         <div class="card">
           <a href="Nuclear_War.html"  target="_self">
           <img  class="imgbook"src="image/Nuclear_War.webp" alt="Nuclear_War"></a> 
@@ -25,17 +70,17 @@
           <h1>Nuclear War:A Scenario</h1>
           <p>By Annie Jacobsen</p>
           <p> Kindle Edition</p>
-           </div>
+            </div>
         </div>
         
         <div class="card">
           <a href="The_Rise_and_fall.html" target="_self">
           <img  class="imgbook"src="image/The_Rise_and_Fall.webp" alt="The Rise and Fall of the Second American Republic"></a> 
-           <div class="details">
+            <div class="details">
           <h1>The Rise and Fall of the Second American Republic:Reconstruction, 1860-1920</h1>
           <p>By Manisha Sinha</p>
           <p>30th Anniversary Edition</p>
-           </div>
+            </div>
         </div>
         <div class="card">
           <a href="Normal_women.html"  target="_self">
@@ -61,11 +106,16 @@
         
       </div>
 
-        
-      
-   
-    
+      <footer class="footer">
+        <div class="social-container">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+        </div>
+        <p style="color:#f2f2f2">&copy; Copyright  BOOKTOPIA 2024. All Rights Reserved.</p> <!--#f2f2f2  #333333-->
+      </footer>
 
     </body>
 </html>
-
