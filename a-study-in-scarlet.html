@@ -2,23 +2,69 @@
 <html>
  
     <head>
-        <title>A study in scarlet</title>
+        <link rel="stylesheet" href="css/NavBar.css">
+        <script src="js/Login-profile.js"></script>
+    <script src="js/search.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>A study in scarlet</title>
         <link rel="stylesheet" href="css/Bookpage.css"/>
         <script src="js/ReadMore.js"></script>
     </head>
     <body>
-        <iframe src="NavBar.html" frameborder="0" scrolling="no" width="100%" height="150" style="margin: 0; padding: 0;"></iframe>
-        <img class="bookcover" src="image/a study in scarlet.jpg" alt="a study in scarlet" > 
-        <button class="btn">Borrow</button>
-        <div class="inset">
-            <h1>A study in scarlet </h1>   
-            <div class="Authorimg">
-               <img class="author" src="image/ARTHUR CONAN DOYLE.jpeg" alt="ARTHUR CONAN DOYLE.jpeg">
-               <h3>Author:  ARTHUR CONAN DOYLE</h3>
-            </div>
-            <p><b>ISBN (10):</b>  1949460568  <b>ISBN (13):</b>  9781949460568</p>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div id="FirstDiv">
+            <img src="image/Logo.jpg" id="image1">
+            <nav id="Home" class="rest"><a href="Home-page.html" target="_blank" id="Start">Home</a></nav>
+            <nav id="Categories">
+                <div id="dropdown">
+                  <button id="dropbtn" class="rest">Categories <i class="fas fa-caret-down"></i></button>
+                  <div id ="dropdown-content">
+                    <a href="Scientific-books.html" target="_blank">ScientificBooks</a>
+                    <a href="Personal_development.html" target="_blank">PersonaldevelopmentBooks</a>
+                    <a href="Historic-Books.html" target="_blank">HistoricBooks</a>
+                    <a href="Children-Books.html" target="_blank">ChildrenBooks</a>
+                    <a href="Detective-Books.html" target="_blank">DetectiveBooks</a>
+                  </div>
+                </div>
+                </nav>
+            <nav id="About" class="rest"><a href="about-us.html" target="_self">About Us</a></nav>
+            <nav id="Contact" class="rest"><a href="contact-us.html" target="_self">Contact Us</a></nav>
+            <nav >
+                 <div class="dropdown" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="dropbtn" viewBox="0 0 16 16" >
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg>
+              <div class="dropdown-content">
+                <a id="link">My Profile</a>
+                <a href="Login.html" target="_self">Log out</a>
+              </div>
+              </div>
+              </nav>
+              <div class="search-box">
+                <i class="fa fa-search searchIcon" style= "margin-left: 205px;"></i>
+                <input type="text" placeholder="Search by Title, Author, or Genre" id="search-item" style="padding-left: 10px;">
+              
+                <div class="result-box">
+                  
+                </div>
+              </div>
+            
         </div>
+        <div id="AlertMessage">Book borrowed successfully!</div>
+        <img class="bookcover" src="image/a study in scarlet.jpg" alt="a study in scarlet" >
+            <button class="btn" onclick="Borrow()">Borrow</button>
+            <div class="inset">
+                <h1>A study in scarlet </h1>   
+                <div class="Authorimg">
+                   <img class="author" src="image/ARTHUR CONAN DOYLE.jpeg" alt="ARTHUR CONAN DOYLE.jpeg">
+                   <h3>Author:  ARTHUR CONAN DOYLE</h3>
+                </div>
+                <p><b>ISBN (10):</b>  1949460568  <b>ISBN (13):</b>  9781949460568</p>
+            
+            </div>
+        
+        
+       
         <div class="container">
        
         <h2><b>Overview:</b></h2>
@@ -38,6 +84,16 @@
          <button class="btnreadmore" onclick="toggleVisibility()">Read More</button>
      
          </div>
+         <footer class="footer">
+            <div class="social-container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+            <p style="color:#f2f2f2">&copy; Copyright  BOOKTOPIA 2024. All Rights Reserved.</p> <!--#f2f2f2  #333333-->
+          </footer>
            
             
         
