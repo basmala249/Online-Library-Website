@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta charset="UTF-8">
+    <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/NavBar.css">
+     <script src="js/search.js" defer></script>
+     <script src="js/Login-profile.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Scientific Books</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="css/Scientific-books.css">
-        <link rel="stylesheet" href="css/NavBar.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+        <link rel="stylesheet" href="css/Scientific-books.css">        
+      </head>
     <body> 
          <div id="FirstDiv">
         <img src="image/Logo.jpg" id="image1">
@@ -58,47 +59,47 @@
             </p>
       </div>
         <div class="container">
-          <div class="card">
+          <div class="card" id="1">
             <a href="A_Breif_History_Of_Time.html"  target="_self">
-            <img  class="imgbook" src="image/A_Breif_History_Of_Time.jpg" alt="A_Breif_History_Of_Time"></a> 
+            <img id="images1" class="imgbook" src="image/A_Breif_History_Of_Time.jpg" alt="A_Breif_History_Of_Time"></a> 
              <div class="details">
-            <h1>A_Breif_History_Of_Time</h1>
-            <p>By Stephen W.Hawking</p>
+            <h1 id="name1">A_Breif_History_Of_Time</h1>
+            <p id="author1">By Stephen W.Hawking</p>
             <p> First Edition</p>
              </div>
           </div>
           
-          <div class="card">
+          <div class="card" id="2">
             <a href="Scaracity_Brain.html"  target="_self">
-            <img  class="imgbook" src="image/Scaracity_Brain.jpg" alt="Scaracity_Brain"></a> 
+            <img id="images2" class="imgbook" src="image/Scaracity_Brain.jpg" alt="Scaracity_Brain"></a> 
              <div class="details">
-            <h1>Scaracity_Brain</h1>
-            <p>By Michael Easter</p>
+            <h1 id="name2">Scaracity_Brain</h1>
+            <p id="author2">By Michael Easter</p>
             <p>First Edition</p>
              </div>
           </div>
-          <div class="card">
+          <div class="card" id="3">
             <a href="The_Elegant_Universe.html"  target="_self">
-            <img  class="imgbook" src="image/The_Elegant_Universe.jpg" alt="The_Elegant_Universe"></a> 
+            <img id="images3" class="imgbook" src="image/The_Elegant_Universe.jpg" alt="The_Elegant_Universe"></a> 
              <div class="details">
-            <h1>The_Elegant_Universe</h1>
-            <p>By Brian Greene</p>
+            <h1 id="name3">The_Elegant_Universe</h1>
+            <p id="author3">By Brian Greene</p>
             <p>10th Edition</p>
              </div>
           </div>
         </div>
         <!-- -----------------------------div2---------------------------------------------- -->
         <div class="container2">
-          <div class="new2card">
+          <div class="new2card" id="4">
           <a href="The_Selfish_Gene.html"  target="_self">
-            <img  class="imgbook" src="image/The_Selfish_Gene.jpg" alt="The_Selfish_Gene"></a> 
+            <img id="images4" class="imgbook" src="image/The_Selfish_Gene.jpg" alt="The_Selfish_Gene"></a> 
              <div class="details2">
-            <h1>The_Selfish_Gene</h1>
-            <p>By Richard Dawkins</p> 
+            <h1 id="name4">The_Selfish_Gene</h1>
+            <p id="author4">By Richard Dawkins</p> 
             <p> 12th Edition</p>
              </div>
           </div> 
-         <footer class="footer">
+          <footer class="footer">
             <div class="social-container">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
               <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
