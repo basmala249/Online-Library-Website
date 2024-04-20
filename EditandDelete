@@ -1,0 +1,117 @@
+#bookList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #08979D;
+}
+
+#bookList img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#Buttons{ 
+  display: none; 
+} 
+
+#Buttons #Delete , #Edit {
+  margin-right: 10px;
+  background-color: rgb(160, 11, 160);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#Buttons #Delete:hover{
+  background-color:rgb(94, 27, 106); 
+}
+#Buttons #Edit:hover{
+  background-color:rgb(94, 27, 106); 
+}
+
+#Editing input[type="submit"] {
+  width: 7%; /* Make the submit button full width */
+  padding: 10px; /* Add padding for better appearance */
+  background-color: #007bff; /* Add background color */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  margin-left: 5px;
+}
+
+#Editing input[type="submit"]:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+#deleting input[type="submit"] {
+  margin-left: 7px;
+  width: 7%; /* Make the submit button full width */
+  padding: 10px; /* Add padding for better appearance */
+  background-color: #007bff; /* Add background color */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+#deleting input[type="submit"]:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+#send {
+  margin-left: 7px;
+  width: 7%; /* Make the submit button full width */
+  padding: 10px; /* Add padding for better appearance */
+  background-color: #4bd3ad; /* Add background color */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+}
+
+#send:hover{
+  background-color: #40b392;
+}
+
+#ID{
+  
+      width: 10%; /* Adjust the width of text inputs */
+      padding: 10px; /* Add padding for better input appearance */
+      margin-bottom: 15px; /* Add some spacing between inputs */
+      border: 1px solid #ccc; /* Add a border for visual separation */
+      border-radius: 5px; /* Add rounded corners */
+      box-sizing: border-box; /* Ensure padding and border are included in width */
+  
+}
+#BookID{ 
+  display: none; 
+} 
+
+#submt{ 
+  display: none; 
+} 
+
+#Editing{ 
+  display: none; 
+} 
+
+input , label{ 
+  border-radius: 5px; 
+  font-style: italic; 
+} 
+
+label{ 
+  font-size: large; 
+} 
+
+#deleting{ 
+  display: flex; 
+}
