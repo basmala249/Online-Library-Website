@@ -100,6 +100,29 @@
             <p> 12th Edition</p>
              </div>
           </div> 
+            <br>
+          <div id="bookList"></div>
+          <!-- Delete Button -->
+        <div id="Buttons">
+          <br>
+          <button value="Delete" id="Delete" onclick = "DisplayForm()">Delete</button>
+          <button value="Edit" id="Edit" onclick="Form()">Edit</button>
+        </div>
+        <br>
+        <div id="deleting">
+        <input type="text" id = "BookID" placeholder="BookID">
+        <input type="submit" id="submt" value="submit" onclick="DeleteBook()">
+        </div>
+      <div id = "Editing">
+        <input type="text" id = "BID" placeholder="BookID" required>
+        <input type="text" id="BookName" placeholder="BookName">
+        <input type="text" id="BookAuthor" placeholder="BookAuthor">
+        <input type="submit" id="SEND" value="submit" onclick="EditBook()">
+      </div>
+      <script>
+        CheckAccess();
+        Display();
+    </script>
           <footer class="footer">
             <div class="social-container">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
