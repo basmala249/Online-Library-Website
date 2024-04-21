@@ -190,7 +190,7 @@ margin-bottom: 0;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-  background-color: #08979D;
+  background-color: #e8e8e8;
 }
 
 #bookList img {
@@ -199,6 +199,9 @@ margin-bottom: 0;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
+}
+#bookList div{
+    background-color: #08979D;
 }
 #Buttons{ 
 display: none; 
