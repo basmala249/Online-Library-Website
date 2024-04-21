@@ -21,7 +21,7 @@ h2{
   background-position: center;
   padding-bottom: 25%;
   background-blend-mode: multiply;
-  background-color: rgb(56, 40, 19);
+  background-color: rgb(183, 127, 54);
   animation: change 20s infinite ease-in;
   border-radius: 100px;
 }
@@ -49,7 +49,7 @@ h2{
 .card{
   height: 380px;
   margin: 50px;
-  box-shadow: 5px 5px 20px rgb(56, 40, 19);
+  box-shadow: 5px 5px 20px rgb(146, 106, 53);
   overflow: hidden;
 }
 .imgbook{
@@ -70,7 +70,7 @@ h2{
   padding: 5px;
   box-sizing: border-box;
   position: absolute;
-  background-color: rgb(56, 40, 19);
+  background-color: rgba(68, 41, 5, 0.5);
   color: white;
   bottom: -705px; /* to display details of book in the bottom of cover of book */
   transition:  0.5s;
