@@ -1,3 +1,4 @@
+let specialChars = /[&/*#!]/
 document.addEventListener('DOMContentLoaded', function() {
   const signupForm = document.getElementById("signform");
   const username = document.getElementById("username");
@@ -65,6 +66,10 @@ document.addEventListener('DOMContentLoaded', function() {
         else if(passwordval.length<8){
           setError(password,'Password must be at least 8 characters');
           isValid = false;}
+        else if(!(specialChars.test(passwordval))){
+          setError(password,'Password should have special characters like /&!#*');
+          isValid = false;
+        }
         else {
            setSuccess(password);}
 
