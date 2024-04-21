@@ -69,7 +69,7 @@ h2{
   position: absolute;
   background-color: rgba(8, 46, 148, 0.5);
   color: white;
-  bottom: -775px; /* to display details of book in the bottom of cover of book */
+  bottom: -855px; /* to display details of book in the bottom of cover of book */
   transition:  0.5s;
 }
 h1{
@@ -85,7 +85,7 @@ h1{
 }
 .card:hover .details{
   height: 220px;
-  bottom:-775x; /* to display details of book in the bottom of cover of book */
+  bottom:-855px; /* to display details of book in the bottom of cover of book */
   background: rgba(56, 53, 53, 0.7);
   cursor: pointer;
 }
@@ -110,12 +110,12 @@ h1{
   position: absolute;
   background-color: rgba(8, 46, 148, 0.5);
   color: white;
-   bottom: -1295px;   /* to display details of book in the bottom of cover of book */
+   bottom: -1377px;   /* to display details of book in the bottom of cover of book */
   transition:  0.5s;
 }
 .new2card:hover .details2{
   height: 220px;
-  bottom:-1295px; /* to display details of book in the bottom of cover of book */
+  bottom:-1377px; /* to display details of book in the bottom of cover of book */
   background: rgba(56, 53, 53, 0.7);
   cursor: pointer;
 }
