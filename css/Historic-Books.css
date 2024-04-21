@@ -191,18 +191,27 @@ h1{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-  background-color: #e8e8e8;
+  background-color: #ffffff;
 }
-#bookList div{
-    background-color: #08979D;
-}
+
 #bookList img {
-  width: 100%;
+  width: auto;
   height: 200px;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
 }
+
+#bookList div{
+    background-color: #08979D;
+    border-radius: 5px;
+}
+
+#bookList p{
+  font-family: "Lucida Handwriting";
+  color:#a92b1d;
+}
+
 #Buttons{ 
 display: none; 
 } 
