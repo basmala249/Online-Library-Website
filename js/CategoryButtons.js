@@ -44,23 +44,27 @@ function EditBook(){
         
     }
 }
+
 function Display(){
-    
   // Retrieve stored books from local storage
     const storedBooks = JSON.parse(localStorage.getItem('books')) || [];
   // Display stored books
      const bookList = document.getElementById('bookList');
       storedBooks.forEach(book => {
-      const bookDiv = document.createElement('div');
-      bookDiv.innerHTML = `<h2>${book.title}</h2>`;
-      bookDiv.innerHTML += `<p>Author: ${book.author}</p>`;
-      bookDiv.innerHTML += `<p>Edition: ${book.edition}</p>`;
+      let ci = document.getElementById("c").innerText;
+      let k = book.Category;
+      if(ci.charAt(0) == k){
+        const bookDiv = document.createElement('div');
+        bookDiv.innerHTML = `<h2>${book.title}</h2>`;
+        bookDiv.innerHTML += `<p>Author: ${book.author}</p>`;
+        bookDiv.innerHTML += `<p>Edition: ${book.edition}</p>`;
       // bookDiv.innerHTML += `<img src="${book.image}" alt="${book.title}">`;
-      bookDiv.innerHTML += `<a href="bookpage.html?title=${encodeURIComponent(book.title)}">
+        bookDiv.innerHTML += `<a href="bookpage.html?title=${encodeURIComponent(book.title)}">
            <img src="${book.image}" alt="${book.title}">
        </a>`;
   
   
       bookList.appendChild(bookDiv);
+      }
   });
   }
