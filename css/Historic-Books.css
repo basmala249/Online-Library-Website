@@ -191,9 +191,11 @@ h1{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-  background-color: #08979D;
+  background-color: #e8e8e8;
 }
-
+#bookList div{
+    background-color: #08979D;
+}
 #bookList img {
   width: 100%;
   height: 200px;
