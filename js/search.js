@@ -1,4 +1,4 @@
-const books= [
+const Books= [
   {
     ISBN13: "9780553109535",
     ISBN10: "",
@@ -345,7 +345,7 @@ inputBox.onkeyup = function () {
   let input = inputBox.value;
 
   if (input.length) {
-    result = books.filter((book) => {
+    result = Books.filter((book) => {
       const bookNameUpper = book.name.toUpperCase();
       const authorUpper = book.Author ? book.Author.toUpperCase() : ""; // Handle missing author
       const categoryUpper = book.category ? book.category.toUpperCase() : "";
