@@ -53,7 +53,7 @@ function Display(){
       storedBooks.forEach(book => {
       let ci = document.getElementById("c").innerText;
       let k = book.Category;
-      if(ci.charAt(0) == k){
+      if(ci.charAt(0).toLowerCase() == k.charAt(0).toLowerCase()){
         const bookDiv = document.createElement('div');
         bookDiv.innerHTML = `<h2>${book.title}</h2>`;
         bookDiv.innerHTML += `<p>Author: ${book.author}</p>`;
